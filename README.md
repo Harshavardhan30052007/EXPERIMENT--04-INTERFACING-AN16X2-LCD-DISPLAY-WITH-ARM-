@@ -173,11 +173,8 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-
-
 ```
-
- /* USER CODE BEGIN Header */
+/* USER CODE BEGIN Header */
 /**
   ******************************************************************************
   * @file           : main.c
@@ -276,9 +273,11 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
-  Lcd_string(&lcd, "Rithika L");
+  Lcd_string(&lcd, "HARSHAVARDHANKB A P");
   Lcd_cursor(&lcd, 1,1);
-  Lcd_string(&lcd, "212224230231");
+  Lcd_string(&lcd, "212224240054");
+
+
 
   while (1)
   {
@@ -411,14 +410,26 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
- 
 
 ```
 
+
+
+
 ## Output screen shots of proteus  :
- <img width="1653" height="1070" alt="image" src="https://github.com/user-attachments/assets/6545bfa1-1719-43e9-ad7e-7fe8c78f0f30" />
+
+<img width="1497" height="1051" alt="image" src="https://github.com/user-attachments/assets/e42ab986-7830-4e1d-a1f4-dcf8ef7d27e6" />
 
 
+
+ 
+ 
+ ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+
+
+<img width="1305" height="1206" alt="image" src="https://github.com/user-attachments/assets/b3a76abf-f2dd-44ab-bde4-1818ae6c6b2a" />
+
+ 
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
 
